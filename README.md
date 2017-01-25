@@ -13,12 +13,13 @@ $ npm install
 
 #USO#
 ___________________________________________________________________________
-1.- Editar el archivo envioEmail.js y agregar el email y la clave
+1.- Editar la linea 13 del archivo envioEmail.js y agregar el email y la clave
+	
 	```
-	13    auth: {
-    14    user: 'email@gmail.com',
-    15    pass: 'CLAVE'
-    16	}
+	    auth: {
+	    	user: 'email@gmail.com',
+	    	pass: 'CLAVE'
+    	}
 	```
 
 2.- En el terminal digitar:
