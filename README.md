@@ -11,32 +11,26 @@ $ npm install
 ```
 
 
-#PROGRAMACION#
+#USO#
 ___________________________________________________________________________
+1.- Editar el archivo envioEmail.js y agregar el email y la clave
+	```
+	13    auth: {
+    14    user: 'email@gmail.com',
+    15    pass: 'CLAVE'
+    16	}
+	```
 
-### 1.- Determinar la cantidad de 0`s a la derecha de n!(Factorial) ###
+2.- En el terminal digitar:
 	
-	Script que calcula el factorial de un número, calcula la cantidad de zeros
-	que tiene el factorial calculado
 	
-	Para Ejecutarlo:  En el terminal escribir:
 	```
-	$ node CalculaFactorial.js
+	$ node envioEmail.js [NOMBRE] [EMAIL]
 	```
+	Donde:
+		[NOMBRE] = Corresponde al Nombre de destino
+		[EMAIL]  = Corresponde al email de destino 
 
-
-### 2.- Transformar de Numeros a letras ###
-
-	Script que de un numero ingresado retorna su conversión a letras
-
-	Ejecutarlo:  En el terminal escribir:
-	```
-	$ node NumeroaLetras.js
-	```
-
-
-
-### 3.- Algoritmo que visita los movimientos de un caballo en un tablero de NxN ###
 
 
 
