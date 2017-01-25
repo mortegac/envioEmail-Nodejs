@@ -1,0 +1,23 @@
+{
+  "name": "envio-mail",
+  "version": "1.0.0",
+  "description": "Envio de email usando Nodemail - PRO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Ortega Carcamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mortegac/envioEmail-Nodejs/issues"
+  },
+  "homepage": "https://github.com/mortegac/envioEmail-Nodejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mortegac/envioEmail-Nodejs.git"
+  },
+  "dependencies": {
+    "@nodemailer/mailparser2": "^1.0.3",
+    "@nodemailer/pro": "^1.0.0"
+  }
+}
