@@ -18,7 +18,7 @@ let transporter = nodemailer.createTransport({
 
 // setup email data with unicode symbols
 let mailOptions = {
-    from: '"Nombre-Email 👻" <email@gmail.com>', // sender address
+    from: '"${obj.nombre} 👻" <${obj.email}>', // sender address
     to: obj.email, // list of receivers  to: 'mortega@providencia.cl, varriaza@providencia.cl',
     subject: 'email testing  ✔', // Subject line
     text: 'EMAIL DE PRUEBA ?', // plain text body
