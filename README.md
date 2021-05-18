@@ -1,4 +1,5 @@
 ## INSTALACION  ##
+fix 18 de mayo 2021
 `
 1.- Instalar NodeJS y NPM`: 
 	* Para sistemas operativos Linux 	y Windows [Ingrese Aqui](http://www.w3resource.com/node.js/installing-node.js-windows-and-linux.php)
