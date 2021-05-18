@@ -1,4 +1,7 @@
 ## INSTALACION  ##
+
+Hola soy el responsable del conflicto 
+
 `
 1.- Instalar NodeJS y NPM`: 
 	* Para sistemas operativos Linux 	y Windows [Ingrese Aqui](http://www.w3resource.com/node.js/installing-node.js-windows-and-linux.php)
